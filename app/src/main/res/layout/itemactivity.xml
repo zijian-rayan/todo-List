@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4FCAF796"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mytitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="这儿是标题"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/mydescription"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:hint="有什么事儿想让我提醒您呐？"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/mydate"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="27/01/2020" />
+
+    <EditText
+        android:id="@+id/mytime"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="27/01/2020"
+        android:inputType="text" />
+
+</LinearLayout>
